@@ -17,9 +17,9 @@ class LandingController extends Controller
     /**
      * Display the contests page
      */
-    public function contests()
+    public function custom()
     {
-        return view('landing.contests');
+        return view('landing.custom');
     }
 
     /**
@@ -41,8 +41,8 @@ class LandingController extends Controller
     /**
      * Display the users page
      */
-    public function users()
+    public function contact()
     {
-        return view('landing.users');
+        return view('landing.contact');
     }
 } 
