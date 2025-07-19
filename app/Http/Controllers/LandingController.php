@@ -25,9 +25,9 @@ class LandingController extends Controller
     /**
      * Display the contest details page
      */
-    public function contestDetails()
+    public function about()
     {
-        return view('landing.contest-details');
+        return view('landing.about');
     }
 
     /**
