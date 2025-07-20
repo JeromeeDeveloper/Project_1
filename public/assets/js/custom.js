@@ -333,14 +333,15 @@
 				zIndex: '1'
 			});
 		}
-
-		$("#preloader").animate({
-			'opacity': '0'
-		}, 600, function(){
-			setTimeout(function(){
-				$("#preloader").css("visibility", "hidden").fadeOut();
-			}, 300);
-		});
+		
+		// Smooth background image loading for page-heading
+		if($('.page-heading').length){
+			var bgImage = new Image();
+			bgImage.onload = function() {
+				$('.page-heading').addClass('loaded');
+			};
+			bgImage.src = 'assets/images/heading-bg.jpg';
+		}
 	});
 
 	
