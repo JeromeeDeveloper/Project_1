@@ -20,7 +20,7 @@
                         </li> --}}
                         <li><a href="{{ route('custom') }}" class="{{ request()->routeIs('custom') ? 'active' : '' }}">Green House</a></li>
                         <li><a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">About</a></li>
-                        <li><a href="{{ route('categories') }}" class="{{ request()->routeIs('categories') ? 'active' : '' }}">Categories</a></li>
+                        <li><a href="{{ route('categories') }}" class="{{ request()->routeIs('categories') ? 'active' : '' }}">Gallery</a></li>
                         <li><a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'active' : '' }}">Contact</a></li>
                     </ul>   
                     
