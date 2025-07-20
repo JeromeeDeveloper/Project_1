@@ -27,7 +27,7 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
                 <a href="#products">View Alphine Catalog</a>
               </div>
               <div class="icon-button">
-                <a href="#contact"><i class="fa fa-phone"></i> Contact Us Today</a>
+                <a href="tel:440-327-7634"><i class="fa fa-phone"></i> Contact us today</a>
               </div>
             </div>
           </div>
