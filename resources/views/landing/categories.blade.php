@@ -36,20 +36,20 @@
         <div class="col-lg-6">
           <div class="item">
             <div class="thumb">
-              <img src="assets/images/featured-image-02.jpg" alt="">
+              <img src="assets/images/sheds/shed1.jpg" alt="Premium Storage Sheds" style="width: 100%; height: 350px; object-fit: cover;">
               <div class="hover-effect">
                 <div class="content">
                   <div class="top-content">
-                    <span class="award">Award Price</span>
+                    <span class="award">Premium Quality</span>
                     <span class="price">$1,600</span>
                   </div>
-                  <h4>Walk In The Nature Night</h4>
+                  <h4>Premium Storage Sheds</h4>
                   <div class="info">
-                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>60<br>Participants</span>
-                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>188<br>Submissions</span>
+                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>60<br>Available</span>
+                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>188<br>Options</span>
                   </div>
                   <div class="border-button">
-                    <a href="contest-details.html">Browse Nature Contests</a>
+                    <a href="{{ route('about') }}">Browse Storage Sheds</a>
                   </div>
                 </div>
               </div>
@@ -59,20 +59,20 @@
         <div class="col-lg-6">
           <div class="item">
             <div class="thumb">
-              <img src="assets/images/featured-image-01.jpg" alt="">
+              <img src="assets/images/greenhouse/greenhouse1.jpg" alt="Custom Greenhouses" style="width: 100%; height: 350px; object-fit: cover;">
               <div class="hover-effect">
                 <div class="content">
                   <div class="top-content">
-                    <span class="award">Award Price</span>
+                    <span class="award">Custom Built</span>
                     <span class="price">$3,200</span>
                   </div>
-                  <h4>Walk In The Nature Night</h4>
+                  <h4>Custom Greenhouses</h4>
                   <div class="info">
-                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>78<br>Participants</span>
-                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>240<br>Submissions</span>
+                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>78<br>Available</span>
+                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>240<br>Options</span>
                   </div>
                   <div class="border-button">
-                    <a href="contest-details.html">Browse Nature Contests</a>
+                    <a href="{{ route('custom') }}">Browse Greenhouses</a>
                   </div>
                 </div>
               </div>
@@ -82,20 +82,20 @@
         <div class="col-lg-4">
           <div class="item">
             <div class="thumb">
-              <img src="assets/images/featured-image-03.jpg" alt="">
+              <img src="assets/images/deck/deck1.jpg" alt="Premium Deck Materials" style="width: 100%; height: 250px; object-fit: cover;">
               <div class="hover-effect">
                 <div class="content">
                   <div class="top-content">
-                    <span class="award">Award Price</span>
+                    <span class="award">Premium Quality</span>
                     <span class="price">$4,100</span>
                   </div>
-                  <h4>Walk In The Nature Night</h4>
+                  <h4>Premium Deck Materials</h4>
                   <div class="info">
-                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>112<br>Participants</span>
-                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>286<br>Submissions</span>
+                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>112<br>Available</span>
+                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>286<br>Options</span>
                   </div>
                   <div class="border-button">
-                    <a href="contest-details.html">Browse Nature Contests</a>
+                    <a href="{{ route('about') }}">Browse Deck Materials</a>
                   </div>
                 </div>
               </div>
@@ -105,20 +105,20 @@
         <div class="col-lg-4">
           <div class="item">
             <div class="thumb">
-              <img src="assets/images/featured-image-04.jpg" alt="">
+              <img src="assets/images/polly/polly1.jpg" alt="Polly Furniture" style="width: 100%; height: 250px; object-fit: cover;">
               <div class="hover-effect">
                 <div class="content">
                   <div class="top-content">
-                    <span class="award">Award Price</span>
+                    <span class="award">Durable Material</span>
                     <span class="price">$3,400</span>
                   </div>
-                  <h4>Walk In The Nature Night</h4>
+                  <h4>Polly Furniture</h4>
                   <div class="info">
-                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>54<br>Participants</span>
-                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>140<br>Submissions</span>
+                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>54<br>Available</span>
+                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>140<br>Options</span>
                   </div>
                   <div class="border-button">
-                    <a href="contest-details.html">Browse Nature Contests</a>
+                    <a href="{{ route('about') }}">Browse Polly Furniture</a>
                   </div>
                 </div>
               </div>
@@ -128,20 +128,20 @@
         <div class="col-lg-4">
           <div class="item">
             <div class="thumb">
-              <img src="assets/images/featured-image-05.jpg" alt="">
+              <img src="assets/images/sheds/shed3.jpg" alt="Storage Solutions" style="width: 100%; height: 250px; object-fit: cover;">
               <div class="hover-effect">
                 <div class="content">
                   <div class="top-content">
-                    <span class="award">Award Price</span>
+                    <span class="award">Custom Built</span>
                     <span class="price">$2,200</span>
                   </div>
-                  <h4>Walk In The Nature Night</h4>
+                  <h4>Storage Solutions</h4>
                   <div class="info">
-                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>68<br>Participants</span>
-                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>162<br>Submissions</span>
+                    <span class="participants"><img src="assets//images/icon-03.png" alt=""><br>68<br>Available</span>
+                    <span class="submittions"><img src="assets//images/icon-01.png" alt=""><br>162<br>Options</span>
                   </div>
                   <div class="border-button">
-                    <a href="contest-details.html">Browse Nature Contests</a>
+                    <a href="{{ route('about') }}">Browse Storage Solutions</a>
                   </div>
                 </div>
               </div>

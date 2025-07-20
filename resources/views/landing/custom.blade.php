@@ -37,7 +37,7 @@
         <div class="col-lg-6">
           <div class="item">
             <div class="thumb">
-              <img src="assets/images/photo-video-01.jpg" alt="">
+              <img src="assets/images/greenhouse/greenhouse1.jpg" alt="Premium Green House Shed" style="width: 100%; height: 300px; object-fit: cover;">
               <div class="top-content">
                 <h4>Premium Green House Shed</h4>
                 <h6><i class="fa fa-star"></i> 5.0 Rating | <i class="fa fa-check"></i> In Stock</h6>
@@ -58,7 +58,7 @@
         <div class="col-lg-6">
           <div class="item">
             <div class="thumb">
-              <img src="assets/images/photo-video-02.jpg" alt="">
+              <img src="assets/images/greenhouse/greenhouse2.jpg" alt="Custom Built Greenhouse" style="width: 100%; height: 300px; object-fit: cover;">
               <div class="play-button">
                 <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
               </div>
@@ -82,7 +82,7 @@
         <div class="col-lg-4">
           <div class="item">
             <div class="thumb">
-              <img src="assets/images/photo-video-03.jpg" alt="">
+              <img src="assets/images/greenhouse/greenhouse3.jpg" alt="Garden Greenhouse Shed" style="width: 100%; height: 250px; object-fit: cover;">
               <div class="top-content">
                 <h4>Garden Greenhouse Shed</h4>
                 <h6><i class="fa fa-star"></i> 4.8 Rating | <i class="fa fa-leaf"></i> Plant Ready</h6>
@@ -103,7 +103,7 @@
         <div class="col-lg-4">
           <div class="item">
             <div class="thumb">
-              <img src="assets/images/photo-video-04.jpg" alt="">
+              <img src="assets/images/greenhouse/greenhouse4.jpg" alt="Hobby Greenhouse" style="width: 100%; height: 250px; object-fit: cover;">
               <div class="play-button">
                 <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
               </div>
@@ -127,7 +127,7 @@
         <div class="col-lg-4">
           <div class="item">
             <div class="thumb">
-              <img src="assets/images/photo-video-05.jpg" alt="">
+              <img src="assets/images/greenhouse/greenhouse5.jpg" alt="Commercial Greenhouse" style="width: 100%; height: 250px; object-fit: cover;">
               <div class="top-content">
                 <h4>Commercial Greenhouse</h4>
                 <h6><i class="fa fa-star"></i> 4.9 Rating | <i class="fa fa-industry"></i> Commercial</h6>

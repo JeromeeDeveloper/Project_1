@@ -59,25 +59,32 @@
 
             <h4 class="second-title">Product Showcase</h4>
             <div class="row">
-              <div class="col-lg-4 col-md-6 col-12">
+              <div class="col-lg-3 col-md-6 col-12">
                 <div class="item">
-                  <img src="assets/images/2.jpg" alt="Storage Solutions" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
-                  <h5>Storage Solutions</h5>
-                  <h6>Professional Storage Options</h6>
+                  <img src="assets/images/sheds/shed1.jpg" alt="Storage Sheds" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+                  <h5>Storage Sheds</h5>
+                  <h6>Professional Storage Solutions</h6>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-12">
+              <div class="col-lg-3 col-md-6 col-12">
                 <div class="item">
-                  <img src="assets/images/A Frame.jpg" alt="A Frame Structures" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
-                  <h5>A Frame Structures</h5>
-                  <h6>Classic Design & Durability</h6>
+                  <img src="assets/images/greenhouse/greenhouse1.jpg" alt="Greenhouse Solutions" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+                  <h5>Greenhouse Solutions</h5>
+                  <h6>Custom Built Greenhouses</h6>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-12">
+              <div class="col-lg-3 col-md-6 col-12">
                 <div class="item">
-                  <img src="assets/images/Site Prep.png" alt="Site Preparation" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
-                  <h5>Site Preparation</h5>
-                  <h6>Professional Installation</h6>
+                  <img src="assets/images/deck/deck1.jpg" alt="Deck Materials" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+                  <h5>Deck Materials</h5>
+                  <h6>Premium Wood & Design</h6>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="item">
+                  <img src="assets/images/polly/polly1.jpg" alt="Polly Furniture" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+                  <h5>Polly Furniture</h5>
+                  <h6>Outdoor Living Solutions</h6>
                 </div>
               </div>
             </div>
@@ -123,10 +130,10 @@
         </div>
         <div class="col-lg-3 col-sm-6">
           <div class="waiting-item">
-            <img src="assets/images/waiting-01.jpg" alt="">
+            <img src="assets/images/sheds/shed2.jpg" alt="Storage Solutions" style="width: 100%; height: 200px; object-fit: cover;">
             <div class="down-content">
-              <h4>Free Delivery & Installation</h4>
-              <p>Professional delivery and setup service included with every purchase.</p>
+              <h4>Storage Solutions</h4>
+              <p>Professional storage sheds and structures for all your needs.</p>
               <span class="price">Service: <em>Included</em></span>
               <span class="deadline">Time: <em>1-2 Days</em></span>
             </div>
@@ -134,10 +141,10 @@
         </div>
         <div class="col-lg-3 col-sm-6">
           <div class="waiting-item">
-            <img src="assets/images/waiting-02.jpg" alt="">
+            <img src="assets/images/greenhouse/greenhouse2.jpg" alt="Greenhouse Solutions" style="width: 100%; height: 200px; object-fit: cover;">
             <div class="down-content">
-              <h4>Custom Design Options</h4>
-              <p>Customize your structure with various siding, roofing, and accessory options.</p>
+              <h4>Greenhouse Solutions</h4>
+              <p>Custom built greenhouses for year-round growing and climate control.</p>
               <span class="price">Options: <em>Unlimited</em></span>
               <span class="deadline">Design: <em>Custom</em></span>
             </div>
@@ -145,10 +152,10 @@
         </div>
         <div class="col-lg-3 col-sm-6">
           <div class="waiting-item">
-            <img src="assets/images/waiting-03.jpg" alt="">
+            <img src="assets/images/deck/deck2.jpg" alt="Deck Materials" style="width: 100%; height: 200px; object-fit: cover;">
             <div class="down-content">
-              <h4>Site Preparation</h4>
-              <p>Professional site preparation including leveling and foundation work.</p>
+              <h4>Deck Materials</h4>
+              <p>Premium deck materials and professional installation services.</p>
               <span class="price">Service: <em>Available</em></span>
               <span class="deadline">Prep: <em>Same Day</em></span>
             </div>
@@ -156,10 +163,10 @@
         </div>
         <div class="col-lg-3 col-sm-6">
           <div class="waiting-item">
-            <img src="assets/images/waiting-04.jpg" alt="">
+            <img src="assets/images/polly/polly2.jpg" alt="Polly Furniture" style="width: 100%; height: 200px; object-fit: cover;">
             <div class="down-content">
-              <h4>Onsite Resale Shop</h4>
-              <p>Check out our onsite resale shop for great deals on quality structures.</p>
+              <h4>Polly Furniture</h4>
+              <p>Durable outdoor furniture and accessories for your outdoor living space.</p>
               <span class="price">Deals: <em>Up to 50%</em></span>
               <span class="deadline">Shop: <em>Open Daily</em></span>
             </div>
