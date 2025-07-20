@@ -5,6 +5,7 @@
   </head>
 <body>
   @include('layouts.header')
+  @include('layouts.popup')
   <div class="page-heading">
     <div class="container">
       <div class="row">

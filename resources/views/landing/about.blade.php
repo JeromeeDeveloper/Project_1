@@ -7,124 +7,18 @@
 
 <body>
 
-
   <!-- ***** Header Area Start ***** -->
   @include('layouts.header')
   <!-- ***** Header Area End ***** -->
 
-  <div id="modal" class="popupContainer" style="display:none;">
-    <div class="popupHeader">
-        <span class="header_title">Login</span>
-        <span class="modal_close"><i class="fa fa-times"></i></span>
-    </div>
-
-    <section class="popupBody">
-        <!-- Social Login -->
-        <div class="social_login">
-            <div class="">
-                <a href="#" class="social_box fb">
-                    <span class="icon"><i class="fab fa-facebook"></i></span>
-                    <span class="icon_title">Connect with Facebook</span>
-
-                </a>
-
-                <a href="#" class="social_box google">
-                    <span class="icon"><i class="fab fa-google-plus"></i></span>
-                    <span class="icon_title">Connect with Google</span>
-                </a>
-            </div>
-
-            <div class="centeredText">
-                <span>Or use your Email address</span>
-            </div>
-
-            <div class="action_btns">
-                <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
-                <div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
-            </div>
-        </div>
-
-        <!-- Username & Password Login form -->
-        <div class="user_login">
-            <form action="" method="post">
-                <label>Email / Username</label>
-                <input name="username" type="text" id="username" />
-              <br />
-
-                <label>Password</label>
-                <input name="password" type="password" id="password" />
-              <br />
-
-                <div class="checkbox">
-                    <input id="remember" type="checkbox" />
-                    <label for="remember">Remember me on this computer</label>
-                </div>
-
-                <div class="action_btns">
-                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
-                    <div class="one_half last"><button type="submit" class="btn btn_red">Login</button></div>
-                </div>
-            </form>
-
-            <a href="#" class="forgot_password">Forgot password?</a>
-        </div>
-
-        <!-- Register Form -->
-        <div class="user_register">
-            <form action="" method="post">
-                <label>Username</label>
-                <input name="username" type="text" id="username" />
-                <br />
-
-                <label>Email Address</label>
-                <input name="email" type="email" id="email" />
-                <br />
-
-                <label>Password</label>
-                <input name="password" type="password" id="password" />
-                <br />
-
-                <div class="checkbox">
-                    <input id="send_updates" type="checkbox" />
-                    <label for="send_updates">Send me occasional email updates</label>
-                </div>
-
-                <div class="action_btns">
-                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
-                    <div class="one_half last"><button type="submit" class="btn btn_red">Register</button></div>
-                </div>
-            </form>
-        </div>
-        
-    </section>
-  </div>
+  @include('layouts.popup')
 
   <div class="page-heading">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2 header-text">
-          <h2 class="space-need">A Walk In The Nature <em>Contest</em></h2>
-          <h6>Contest Deadline</h6>
-          <div class="main-content">
-            <div class="counter">
-              <div class="days">
-                <div class="value">00</div>
-                <span>Days</span>
-              </div>
-              <div class="hours">
-                <div class="value">00</div>
-                <span>Hours</span>
-              </div>
-              <div class="minutes">
-                <div class="value">00</div>
-                <span>Minutes</span>
-              </div>
-              <div class="seconds">
-                <div class="value">00</div>
-                <span>Seconds</span>
-              </div>
-            </div>
-          </div>
+          <h2 class="space-need">Need Storage? <em>We Got It!</em></h2>
+          <h6>Let Us Help You Beautify Your Outdoor Space Today!</h6>
         </div>
       </div>
     </div>
@@ -137,15 +31,15 @@
           <div class="top-content">
             <div class="row">
               <div class="col-lg-4">
-                <span class="open">Open Contest</span>
-                <span class="wish-list"><i class="fa fa-heart"></i> Add To Your Favorites</span>
+                <span class="open">Free Delivery</span>
+                <span class="wish-list"><i class="fa fa-truck"></i> & Installation</span>
               </div>
               <div class="col-lg-8">
                 <ul>
-                  <li><i class="fa fa-medal"></i> <span>Award:</span> $2,400</li>
-                  <li><span>Time left:</span> 7 Days</li>
-                  <li><span>Participants:</span> 118</li>
-                  <li><span>Submittions:</span> 280</li>
+                  <li><i class="fa fa-phone"></i> <span>Call:</span> 440-327-7634</li>
+                  <li><span>Financing:</span> Available</li>
+                  <li><span>Discount:</span> Up to 20% Off</li>
+                  <li><span>Service:</span> Custom Built</li>
                 </ul>
               </div>
             </div>
@@ -153,42 +47,67 @@
         </div>
         <div class="col-lg-12">
           <div class="main-content">
-            <h4>Requirements Of The Contest</h4>
-            <h6>Picture Should Have</h6>
-            <p>SnapX Photography is a professional website template with 5 different HTML pages for maximum customizations. This is based on Bootstrap v5.1.3 CSS framework. Please visit TemplateMo website to see more CSS templates.</p>
-            <p>You are allowed to 100% freely use this SnapX Template for your commercial websites. You are not allowed to redistribute the template ZIP file on any other Free CSS Template collection websites.</p>
-            <h6 class="second-title">Picture Should Not Have</h6>
-            <p>We hope this template is very useful for your website development. If you wish to <a rel="nofollow" href="https://templatemo.com/contact" target="_blank">support TemplateMo</a>, you may make a small amount of donation via PayPal.</p>
-            <p>If you need the PSD source files of this template, please feel free to contact TemplateMo. Our supporters are welcome.</p>
-            <h4 class="second-title">Links To Inspire Your Photo</h4>
+            <h4>Our Products</h4>
+            <p><strong>Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottages and More!</strong></p>
+
+            <h4>Custom Built Alpine Structures</h4>
+            <p>We offer both pre-built and built onsite structures. Sheds come standard with LP Smart Siding. Vinyl siding available to custom match your house. We can place windows and doors where you would like them. Several floor options to choose from.</p>
+            
+            <p>We offer metal roofs, dimensional shingles (lifetime warranty), cupolas and weathervanes, 48"-96" ramps, 52"- 84" double doors, insulated windows, shutters, loft ladders, transom glass, ramps, flower boxes, higher walls, supreme flooring, overhead garage doors, decks, porches, shelving, lofts, ridge lights, vents, decorative hinges and much more.</p>
+            
+            <p>All of our sheds come with the Alpine strongback nailer, triple layer door system, aluminum drip edge and metal truss plates.</p>
+
+            <h4 class="second-title">Product Showcase</h4>
             <div class="row">
-              <div class="col-lg-3 col-6">
+              <div class="col-lg-4 col-md-6 col-12">
                 <div class="item">
-                  <span>JPG</span>
-                  <h5>A Trip In The Rain<br><h6>Previous Winner</h6></h5>
+                  <img src="assets/images/2.jpg" alt="Storage Solutions" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+                  <h5>Storage Solutions</h5>
+                  <h6>Professional Storage Options</h6>
                 </div>
               </div>
-              <div class="col-lg-3 col-6">
+              <div class="col-lg-4 col-md-6 col-12">
                 <div class="item">
-                  <span>PNG</span>
-                  <h5>A Trip In The Jungle<br><h6>Previous Winner</h6></h5>
+                  <img src="assets/images/A Frame.jpg" alt="A Frame Structures" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+                  <h5>A Frame Structures</h5>
+                  <h6>Classic Design & Durability</h6>
                 </div>
               </div>
-              <div class="col-lg-3 col-6">
+              <div class="col-lg-4 col-md-6 col-12">
                 <div class="item">
-                  <span>PDF</span>
-                  <h5>A Trip In The Mountain<br><h6>Previous Winner</h6></h5>
-                </div>
-              </div>
-              <div class="col-lg-3 col-6">
-                <div class="item">
-                  <span>AI</span>
-                  <h5>A Trip In The Forest<br><h6>Previous Winner</h6></h5>
+                  <img src="assets/images/Site Prep.png" alt="Site Preparation" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+                  <h5>Site Preparation</h5>
+                  <h6>Professional Installation</h6>
                 </div>
               </div>
             </div>
+
+            <h4 class="second-title">Site Preparation</h4>
+            <h6>Need Site Prep? Yard Unlevel?</h6>
+            <p><strong>We Can Help!</strong></p>
+            <p>Most structures can be purchased with a block package to save you time and money.</p>
+            <p>We can also help you with your gravel or concrete needs.</p>
+
+            <h4 class="second-title">Special Offers & Financing</h4>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-12">
+                <div class="item">
+                  <span>20%</span>
+                  <h5>Special Discounted Lot Models<br><h6>Limited Time Offer</h6></h5>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-12">
+                <div class="item">
+                  <span>0%</span>
+                  <h5>12 Months Interest Free<br><h6>Special Financing</h6></h5>
+                </div>
+              </div>
+            </div>
+            
+            <p><strong>APS (All Pro Sales)</strong> refers its customers to the following quality lender for their financing. Click here for more details and enter Promo Code <strong>1041-3838</strong></p>
+
             <div class="main-button">
-              <a href="#">Submit Your Photo/Video</a>
+              <a href="#">Get Your Free Quote Today!</a>
             </div>
           </div>
         </div>
@@ -200,16 +119,16 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h5>Other Contests Waiting For You:</h5>
+          <h5>Our Services Include:</h5>
         </div>
         <div class="col-lg-3 col-sm-6">
           <div class="waiting-item">
             <img src="assets/images/waiting-01.jpg" alt="">
             <div class="down-content">
-              <h4>Best Mountain Picture Award</h4>
-              <p>Lorem ipsum dolor siter and ametters conseietur adipiscing elit.</p>
-              <span class="price">Price: <em>$900</em></span>
-              <span class="deadline">Deadline: <em>3 Days</em></span>
+              <h4>Free Delivery & Installation</h4>
+              <p>Professional delivery and setup service included with every purchase.</p>
+              <span class="price">Service: <em>Included</em></span>
+              <span class="deadline">Time: <em>1-2 Days</em></span>
             </div>
           </div>
         </div>
@@ -217,10 +136,10 @@
           <div class="waiting-item">
             <img src="assets/images/waiting-02.jpg" alt="">
             <div class="down-content">
-              <h4>Nature Walk in the Forest</h4>
-              <p>Lorem ipsum dolor siter and ametters conseietur adipiscing elit.</p>
-              <span class="price">Price: <em>$1,400</em></span>
-              <span class="deadline">Deadline: <em>2 Days</em></span>
+              <h4>Custom Design Options</h4>
+              <p>Customize your structure with various siding, roofing, and accessory options.</p>
+              <span class="price">Options: <em>Unlimited</em></span>
+              <span class="deadline">Design: <em>Custom</em></span>
             </div>
           </div>
         </div>
@@ -228,10 +147,10 @@
           <div class="waiting-item">
             <img src="assets/images/waiting-03.jpg" alt="">
             <div class="down-content">
-              <h4>The Road to Photograph</h4>
-              <p>Lorem ipsum dolor siter and ametters conseietur adipiscing elit.</p>
-              <span class="price">Price: <em>$1,250</em></span>
-              <span class="deadline">Deadline: <em>4 Days</em></span>
+              <h4>Site Preparation</h4>
+              <p>Professional site preparation including leveling and foundation work.</p>
+              <span class="price">Service: <em>Available</em></span>
+              <span class="deadline">Prep: <em>Same Day</em></span>
             </div>
           </div>
         </div>
@@ -239,37 +158,18 @@
           <div class="waiting-item">
             <img src="assets/images/waiting-04.jpg" alt="">
             <div class="down-content">
-              <h4>The Lake and Mountain Scenery</h4>
-              <p>Lorem ipsum dolor siter and ametters conseietur adipiscing elit.</p>
-              <span class="price">Price: <em>$1,600</em></span>
-              <span class="deadline">Deadline: <em>10 Days</em></span>
+              <h4>Onsite Resale Shop</h4>
+              <p>Check out our onsite resale shop for great deals on quality structures.</p>
+              <span class="price">Deals: <em>Up to 50%</em></span>
+              <span class="deadline">Shop: <em>Open Daily</em></span>
             </div>
           </div>
-        </div>
-        <div class="col-lg-12">
-          <ul class="pagination">
-            <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
-            <li><a href="#">1</a></li>
-            <li class="active"><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
-          </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <p>Copyright © 2048 <a href="#">SnapX</a> Photo Contest Co., Ltd. All rights reserved. 
-          
-          Design: <a title="CSS Templates" rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a> Distribution: <a title="CSS Templatesss" rel="sponsored" href="https://themewagon.com" target="_blank">ThemeWagon</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
+  @include('layouts.footer')
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->

@@ -12,93 +12,6 @@
   @include('layouts.header')
   <!-- ***** Header Area End ***** -->
 
-  <div id="modal" class="popupContainer" style="display:none;">
-    <div class="popupHeader">
-        <span class="header_title">Login</span>
-        <span class="modal_close"><i class="fa fa-times"></i></span>
-    </div>
-
-    <section class="popupBody">
-        <!-- Social Login -->
-        <div class="social_login">
-            <div class="">
-                <a href="#" class="social_box fb">
-                    <span class="icon"><i class="fab fa-facebook"></i></span>
-                    <span class="icon_title">Connect with Facebook</span>
-
-                </a>
-
-                <a href="#" class="social_box google">
-                    <span class="icon"><i class="fab fa-google-plus"></i></span>
-                    <span class="icon_title">Connect with Google</span>
-                </a>
-            </div>
-
-            <div class="centeredText">
-                <span>Or use your Email address</span>
-            </div>
-
-            <div class="action_btns">
-                <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
-                <div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
-            </div>
-        </div>
-
-        <!-- Username & Password Login form -->
-        <div class="user_login">
-            <form action="" method="post">
-                <label>Email / Username</label>
-                <input name="username" type="text" id="username" />
-              <br />
-
-                <label>Password</label>
-                <input name="password" type="password" id="password" />
-              <br />
-
-                <div class="checkbox">
-                    <input id="remember" type="checkbox" />
-                    <label for="remember">Remember me on this computer</label>
-                </div>
-
-                <div class="action_btns">
-                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
-                    <div class="one_half last"><button type="submit" class="btn btn_red">Login</button></div>
-                </div>
-            </form>
-
-            <a href="#" class="forgot_password">Forgot password?</a>
-        </div>
-
-        <!-- Register Form -->
-        <div class="user_register">
-            <form action="" method="post">
-                <label>Username</label>
-                <input name="username" type="text" id="username" />
-                <br />
-
-                <label>Email Address</label>
-                <input name="email" type="email" id="email" />
-                <br />
-
-                <label>Password</label>
-                <input name="password" type="password" id="password" />
-                <br />
-
-                <div class="checkbox">
-                    <input id="send_updates" type="checkbox" />
-                    <label for="send_updates">Send me occasional email updates</label>
-                </div>
-
-                <div class="action_btns">
-                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
-                    <div class="one_half last"><button type="submit" class="btn btn_red">Register</button></div>
-                </div>
-            </form>
-        </div>
-        
-    </section>
-  </div>
-
   <!-- ***** Main Banner Area Start ***** -->
   <div class="main-banner">
     <div class="container">
@@ -135,11 +48,11 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
                 <img src="assets/images/featured-01.jpg" alt="">
                 <div class="hover-effect">
                   <div class="content">
-                    <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                    <h4>Premium Storage Sheds <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
                     <ul>
-                      <li><span>Contest Winner:</span> Vincent Adam</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $1.000 + Camera Nikon</li>
+                      <li><span>Material:</span> LP Smart Siding</li>
+                      <li><span>Warranty:</span> Lifetime</li>
+                    
                     </ul>
                   </div>
                 </div>
@@ -150,11 +63,11 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
                 <img src="assets/images/featured-02.jpg" alt="">
                 <div class="hover-effect">
                   <div class="content">
-                    <h4>Smile In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                    <h4>Custom Garages <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
                     <ul>
-                      <li><span>Contest Winner:</span> Thomas Eddy</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $1,200 + Canon EOS R7</li>
+                      <li><span>Size:</span> 12x20 to 24x30</li>
+                      <li><span>Features:</span> Overhead Doors</li>
+                     
                     </ul>
                   </div>
                 </div>
@@ -165,11 +78,11 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
                 <img src="assets/images/featured-03.jpg" alt="">
                 <div class="hover-effect">
                   <div class="content">
-                    <h4>Happy In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                    <h4>Loft Barns <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
                     <ul>
-                      <li><span>Contest Winner:</span> Vincent Adam</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $1,800 + Canon EOS R6</li>
+                      <li><span>Style:</span> Traditional Barn</li>
+                      <li><span>Features:</span> Loft Storage</li>
+                     
                     </ul>
                   </div>
                 </div>
@@ -180,11 +93,11 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
                 <img src="assets/images/featured-01.jpg" alt="">
                 <div class="hover-effect">
                   <div class="content">
-                    <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                    <h4>Custom Cabins <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
                     <ul>
-                      <li><span>Contest Winner:</span> Thomas Eddy</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $8,400 + Canon EOS R1</li>
+                      <li><span>Type:</span> Residential Cabin</li>
+                      <li><span>Features:</span> Full Interior</li>
+                     
                     </ul>
                   </div>
                 </div>
@@ -195,11 +108,11 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
                 <img src="assets/images/featured-02.jpg" alt="">
                 <div class="hover-effect">
                   <div class="content">
-                    <h4>Run In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                    <h4>Chicken Coops <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
                     <ul>
-                      <li><span>Contest Winner:</span> Vincent Adam</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $5,500 + Canon EOS R3</li>
+                      <li><span>Capacity:</span> 6-12 Chickens</li>
+                      <li><span>Features:</span> Nesting Boxes</li>
+                    
                     </ul>
                   </div>
                 </div>
@@ -210,11 +123,11 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
                 <img src="assets/images/featured-03.jpg" alt="">
                 <div class="hover-effect">
                   <div class="content">
-                    <h4>Stay In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                    <h4>Dog Kennels <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
                     <ul>
-                      <li><span>Contest Winner:</span> Thomas Eddy</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $4,400 + Canon EOS R5</li>
+                      <li><span>Size:</span> Large Breed</li>
+                      <li><span>Features:</span> Insulated</li>
+                   
                     </ul>
                   </div>
                 </div>
@@ -225,11 +138,11 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
                 <img src="assets/images/featured-01.jpg" alt="">
                 <div class="hover-effect">
                   <div class="content">
-                    <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                    <h4>Garden Sheds <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
                     <ul>
-                      <li><span>Contest Winner:</span> Vincent Adam</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $3,800 + Canon EOS R6</li>
+                      <li><span>Style:</span> Victorian</li>
+                      <li><span>Features:</span> Windows</li>
+                    
                     </ul>
                   </div>
                 </div>
@@ -240,11 +153,11 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
                 <img src="assets/images/featured-02.jpg" alt="">
                 <div class="hover-effect">
                   <div class="content">
-                    <h4>Shoot In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                    <h4>Carports <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
                     <ul>
-                      <li><span>Contest Winner:</span> Vincent Adam</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $2,400 + Canon EOS R7</li>
+                      <li><span>Coverage:</span> 2-3 Vehicles</li>
+                      <li><span>Features:</span> Metal Roof</li>
+                   
                     </ul>
                   </div>
                 </div>
@@ -255,11 +168,11 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
                 <img src="assets/images/featured-03.jpg" alt="">
                 <div class="hover-effect">
                   <div class="content">
-                    <h4>Fly In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                    <h4>Cottages <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
                     <ul>
-                      <li><span>Contest Winner:</span> Vincent Adam</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $1,200 + Canon EOS R10</li>
+                      <li><span>Style:</span> Country Cottage</li>
+                      <li><span>Features:</span> Full Kitchen</li>
+                    
                     </ul>
                   </div>
                 </div>
@@ -286,16 +199,16 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
               <div class="closed-item">
                 <div class="thumb">
                   <img src="assets/images/closed-01.jpg" alt="">
-                  <span class="winner"><em>Winner:</em> Anthony Soft</span>
-                  <span class="price"><em>Award :</em> $1,600</span>
+                  <span class="winner"><em>Material:</em> Premium Wood</span>
+                  <span class="price"><em>Price:</em> $1,600</span>
                 </div>
                 <div class="down-content">
                   <div class="row">
                     <div class="col-7">
-                      <h4>88 Participants <br><span>Number Of Artists</span></h4>
+                      <h4>Premium Quality <br><span>Deck Materials</span></h4>
                     </div>
                     <div class="col-5">
-                      <h4 class="pics">320 Pictures <br><span>Submited Pics</span></h4>
+                      <h4 class="pics">Custom Design <br><span>Options Available</span></h4>
                     </div>
                   </div>
                 </div>
@@ -305,16 +218,16 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
               <div class="closed-item">
                 <div class="thumb">
                   <img src="assets/images/closed-02.jpg" alt="">
-                  <span class="winner"><em>Winner:</em> Anthony Soft</span>
-                  <span class="price"><em>Award :</em> $4,200</span>
+                  <span class="winner"><em>Material:</em> Weather Resistant</span>
+                  <span class="price"><em>Price:</em> $4,200</span>
                 </div>
                 <div class="down-content">
                   <div class="row">
                     <div class="col-7">
-                      <h4>96 Participants <br><span>Number Of Artists</span></h4>
+                      <h4>Durable Polly <br><span>Furniture Sets</span></h4>
                     </div>
                     <div class="col-5">
-                      <h4 class="pics">410 Pictures <br><span>Submited Pics</span></h4>
+                      <h4 class="pics">Weather Resistant <br><span>Materials</span></h4>
                     </div>
                   </div>
                 </div>
@@ -324,16 +237,16 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
               <div class="closed-item">
                 <div class="thumb">
                   <img src="assets/images/closed-03.jpg" alt="">
-                  <span class="winner"><em>Winner:</em> Anthony Soft</span>
-                  <span class="price"><em>Award :</em> $3,200</span>
+                  <span class="winner"><em>Service:</em> Professional</span>
+                  <span class="price"><em>Price:</em> $3,200</span>
                 </div>
                 <div class="down-content">
                   <div class="row">
                     <div class="col-7">
-                      <h4>74 Participants <br><span>Number Of Artists</span></h4>
+                      <h4>Professional <br><span>Installation</span></h4>
                     </div>
                     <div class="col-5">
-                      <h4 class="pics">284 Pictures <br><span>Submited Pics</span></h4>
+                      <h4 class="pics">Free Delivery <br><span>& Setup</span></h4>
                     </div>
                   </div>
                 </div>
@@ -372,17 +285,17 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
                 <img src="assets/images/icon-01.png" alt="">
               </div>
               <div class="right">
-                <h4>Nature Pic Contest</h4>
+                <h4>Sheds</h4>
                 <span><em>126</em> Available Contests</span>
               </div>
             </div>
             <div class="thumb">
               <img src="assets/images/popular-01.png" alt="">
-              <span class="category">Top Contest</span>
-              <span class="likes"><i class="fa fa-heart"></i> 256</span>
+              <span class="category">Top </span>
+              <span class="likes"><i class="fa fa-heart"></i> </span>
             </div>
             <div class="border-button">
-              <a href="{{ route('about') }}">Browse Nature Pic Contests</a>
+              <a href="{{ route('about') }}">Browse Sheds</a>
             </div>
           </div>
         </div>
@@ -393,17 +306,17 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
                 <img src="assets/images/icon-02.png" alt="">
               </div>
               <div class="right">
-                <h4>Random Pic Contest</h4>
-                <span><em>116</em> Available Contests</span>
+                <h4>Custom Green House</h4>
+                <span><em>116</em> Available </span>
               </div>
             </div>
             <div class="thumb">
               <img src="assets/images/popular-02.png" alt="">
-              <span class="category">Top Contest</span>
-              <span class="likes"><i class="fa fa-heart"></i> 256</span>
+              <span class="category">Top </span>
+              <span class="likes"><i class="fa fa-heart"></i> </span>
             </div>
             <div class="border-button">
-              <a href="{{ route('about') }}">Browse Random Pic Contests</a>
+              <a href="{{ route('about') }}">Browse Custom Green House</a>
             </div>
           </div>
         </div>
@@ -414,17 +327,17 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
                 <img src="assets/images/icon-03.png" alt="">
               </div>
               <div class="right">
-                <h4>Portrait Pic Contest</h4>
+                <h4>Deck Fence</h4>
                 <span><em>164</em> Available Contests</span>
               </div>
             </div>
             <div class="thumb">
               <img src="assets/images/popular-03.png" alt="">
-              <span class="category">Top Contest</span>
-              <span class="likes"><i class="fa fa-heart"></i> 256</span>
+              <span class="category">Top </span>
+              <span class="likes"><i class="fa fa-heart"></i> </span>
             </div>
             <div class="border-button">
-              <a href="{{ route('about') }}">Browse Portrait Pic Contests</a>
+              <a href="{{ route('about') }}">Browse Deck Fence</a>
             </div>
           </div>
         </div>
@@ -435,17 +348,17 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
                 <img src="assets/images/icon-04.png" alt="">
               </div>
               <div class="right">
-                <h4>Space Pic Contest</h4>
+                <h4>Polly Furniture</h4>
                 <span><em>135</em> Available Contests</span>
               </div>
             </div>
             <div class="thumb">
               <img src="assets/images/popular-04.png" alt="">
-              <span class="category">Top Contest</span>
+              <span class="category">Top </span>
               <span class="likes"><i class="fa fa-heart"></i> 256</span>
             </div>
             <div class="border-button">
-              <a href="{{ route('about') }}">Browse Space Pic Contests</a>
+              <a href="{{ route('about') }}">Browse Polly Furniture</a>
             </div>
           </div>
         </div>
@@ -453,17 +366,67 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
     </div>
   </section>
 
-  <footer>
+  <!-- ***** Business Hours & Contact Section Start ***** -->
+  <section class="contact-us">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p>Copyright © 2048 <a href="#">SnapX</a> Photo Contest Co., Ltd. All rights reserved. 
-          
-          Design: <a title="CSS Templates" rel="sponsored" href="https://templatemo.com/page/1" target="_blank">TemplateMo</a> Distribution: <a title="CSS Templatesss" rel="sponsored" href="https://themewagon.com" target="_blank">ThemeWagon</a></p>
+          <div class="section-heading text-center">
+            <h6>Contact Information</h6>
+            <h4>Business <em>Hours</em> & <em>Contact</em></h4>
+          </div>
         </div>
+        <div class="col-lg-12">
+          <div class="info-item">
+           
+            <h4>BUSINESS HOURS</h4>
+            <div class="overview-text" style="text-align: center; margin-bottom: 30px; padding: 20px; background: rgba(0, 189, 254, 0.1); border-radius: 10px; border-left: 4px solid #00bdfe;">
+              <p style="font-size: 18px; color: #2a2a2a; margin: 0; line-height: 1.6; margin-bottom: 15px;">
+                <strong>We sell sheds from our lot or we can build you one exactly how you want, stop by today. Free delivery. 1-2 weeks for lot models.</strong>
+              </p>
+              <p style="font-size: 16px; color: #7a7a7a; margin: 0; line-height: 1.6;">
+                <strong>Our lot has over 40+ sheds and storage buildings. We offer built on site and pre-built structures for ALL your storage needs. FREE delivery and FREE installation.</strong>
+              </p>
+            </div>
+            <div class="hours-list">
+              <div class="hours-row">
+                <span class="day">Monday</span>
+                <span class="time">9:00-3:00</span>
+              </div>
+              <div class="hours-row">
+                <span class="day">Tuesday</span>
+                <span class="time">9:00-3:00</span>
+              </div>
+              <div class="hours-row">
+                <span class="day">Wednesday</span>
+                <span class="time">9:00-3:00</span>
+              </div>
+              <div class="hours-row">
+                <span class="day">Thursday</span>
+                <span class="time">9:00-3:00</span>
+              </div>
+              <div class="hours-row">
+                <span class="day">Friday</span>
+                <span class="time">9:00-3:00</span>
+              </div>
+              <div class="hours-row">
+                <span class="day">Saturday</span>
+                <span class="time">9:00-3:00</span>
+              </div>
+              <div class="hours-row closed">
+                <span class="day">Sunday</span>
+                <span class="time">Closed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </div>
-  </footer>
+  </section>
+  <!-- ***** Business Hours & Contact Section End ***** -->
+
+@include('layouts.footer')
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
@@ -502,11 +465,7 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
   <script src="assets/js/popup.js"></script>
   <script src="assets/js/custom.js"></script>
 
-  <!-- Idea Room Floating Popup -->
-  <a href="https://idearoom.alpinestructures.net/?dealer=All-Pro-Sales" target="_blank" id="ideaRoomPopup" style="position:fixed;bottom:30px;right:30px;z-index:9999;display:flex;align-items:center;background:#fff;border-radius:30px;box-shadow:0 2px 12px rgba(0,0,0,0.15);padding:12px 24px 12px 18px;font-weight:600;color:#1a3a5b;text-decoration:none;transition:box-shadow 0.2s;">
-    <img src="/assets/images/icon-01.png" alt="Idea Room" style="width:32px;height:32px;margin-right:12px;">
-    Idea Room
-  </a>
+@include('layouts.popup')
 
   </body>
 </html>

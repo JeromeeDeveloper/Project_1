@@ -23,8 +23,9 @@
                         <li><a href="{{ route('categories') }}" class="{{ request()->routeIs('categories') ? 'active' : '' }}">Categories</a></li>
                         <li><a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'active' : '' }}">Contact</a></li>
                     </ul>   
-                    <div class="border-button">
-                        <a id="modal_trigger" href="#modal" class="sign-in-up"><i class="fa fa-user"></i> Sign In/Up</a>
+                    
+                    <div class="border-button" style="margin-left: 10px;">
+                        <a href="https://idearoom.alpinestructures.net/?dealer=All-Pro-Sales" target="_blank" class="shop-now"><i class="fa fa-shopping-cart"></i> Shop Now</a>
                     </div>
                     <a class='menu-trigger'>
                         <span>Menu</span>
