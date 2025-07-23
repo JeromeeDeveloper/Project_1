@@ -438,7 +438,7 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
 
   <script>
     $(document).ready(function(){
-      // First carousel: auto-play, no manual controls
+ 
       $('.featured-items .owl-carousel').owlCarousel({
         items:1,
         loop:true,
@@ -449,7 +449,7 @@ Sheds, Garages, Carports, Loft Barns, Cabins, Chicken Coops, Dog Kennels, Cottag
         nav:false,
         dots:false
       });
-      // Second carousel: interactive, manual navigation only
+ 
       $('.closed-contests .owl-carousel').owlCarousel({
         items:1,
         loop:true,
