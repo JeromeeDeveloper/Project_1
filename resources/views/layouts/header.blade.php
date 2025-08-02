@@ -25,7 +25,11 @@
                     </ul>   
                     
                     <div class="border-button" style="margin-left: 10px;">
-                        <a href="https://idearoom.alpinestructures.net/?dealer=All-Pro-Sales" target="_blank" class="shop-now"><i class="fa fa-shopping-cart"></i> Shop Now</a>
+                        @auth
+                            <a href="{{ route('admin.dashboard') }}" class="shop-now"><i class="fa fa-user"></i> Dashboard</a>
+                        @else
+                            <a href="{{ route('login') }}" class="shop-now"><i class="fa fa-sign-in-alt"></i> Sign in</a>
+                        @endauth
                     </div>
                     <a class='menu-trigger'>
                         <span>Menu</span>

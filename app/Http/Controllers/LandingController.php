@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\SiteStat;
+use App\Models\Testimonial;
 
 class LandingController extends Controller
 {
@@ -11,7 +13,21 @@ class LandingController extends Controller
      */
     public function index()
     {
-        return view('landing.index');
+        // Increment visitor counter
+        SiteStat::incrementValue('visitors');
+        
+        // Get stats for the page
+        $stats = [
+            'visitors' => SiteStat::getValue('visitors', 15420),
+            'likes' => SiteStat::getValue('likes', 8924),
+            'comments' => SiteStat::getValue('comments', 3247),
+            'satisfaction' => SiteStat::getValue('satisfaction', 98)
+        ];
+        
+        // Get testimonials
+        $testimonials = Testimonial::active()->ordered()->get();
+        
+        return view('landing.index', compact('stats', 'testimonials'));
     }
 
     /**
